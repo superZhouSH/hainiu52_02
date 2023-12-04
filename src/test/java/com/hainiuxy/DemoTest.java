@@ -10,4 +10,9 @@ public class DemoTest {
         String result = demo.SayHello("git");
         Assert.assertEquals("hello git",result);
     }
+    @Test
+    public void test2() {
+        Demo demo = new Demo();
+        demo.start();
+    }
 }
