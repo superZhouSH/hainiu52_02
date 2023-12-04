@@ -10,6 +10,7 @@ public class Demo {
 
     public void start() {
         System.out.println("start");
+        System.out.println("debug xxx");
     }
 
     public boolean login(String username, String password) {
